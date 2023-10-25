@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #333;
+    margin: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 5px; /* Remove any margin on the table */
+}
+
+table th {
+    text-align: left;
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+}
+
+table td {
+    padding: 8px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+form {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 100%; /* Set the max-width of the form to 100% */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%; /* Set the submit button's width to 100% */
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
